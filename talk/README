@@ -1,0 +1,11 @@
+These are all the files needed for the astropy talk.   The talk can be 
+updated/created by running:
+
+To update the notebook:
+ipython notebook astropy_talk.ipynb 
+
+To update the slides:
+ipython nbconvert astropy_talk.ipynb --to slides --post serve --template slides.tpl
+
+The templates are required for the link to the mathjax library to
+work properly.
